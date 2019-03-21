@@ -2,7 +2,7 @@ runtime: python27
 api_version: 1
 threadsafe: true
 handlers:
-- url: /.*
+- url: /run
   script: main.app
   
 libraries:
